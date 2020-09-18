@@ -8,7 +8,25 @@
 
 **命名实体识别的任务是同时准确识别命名实体的边界和类别**
 
-![](https://raw.githubusercontent.com/zyxdSTU/Image/master/data.png)
+```
+高 B-NAME
+勇 E-NAME
+： O
+男 O
+， O
+中 B-CONT
+国 M-CONT
+国 M-CONT
+籍 E-CONT
+， O
+无 O
+境 O
+外 O
+居 O
+留 O
+权 O
+
+```
 
 #### HMM
 
